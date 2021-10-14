@@ -7,7 +7,10 @@ package com.mycompany.week_7_java_fxml;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 
 /**
  * FXML Controller class
@@ -17,6 +20,18 @@ import javafx.fxml.Initializable;
 public class CalculatorController implements Initializable {
 
     
+    //public class CalculatorController {
+
+    @FXML
+    private TextField box2;
+    
+    
+
+    @FXML
+    private TextField box1;
+
+    @FXML
+    private Button button3;
     /**
      * Initializes the controller class.
      */
